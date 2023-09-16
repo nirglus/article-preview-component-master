@@ -9,17 +9,23 @@ body{
 #card-container{
     display: flex;
     width: 1000px;
+    border-radius: 10px;
 }
 .r-side-card{
     display: flex;
     flex-direction: column;
     width: 580px;
     padding: 20px 42px;
+    background-color: #fff;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .card-img{
     width: 400px;
     background-image: url(../images/drawers.jpg);
     background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .author-card{
     display: flex;
