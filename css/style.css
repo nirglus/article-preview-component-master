@@ -21,6 +21,10 @@ body{
     display: flex;
     align-items: center;
 }
+.author-card img{
+    width: 50px;
+    border-radius: 50%;
+}
 .share-popup{
     display: none;
 }
