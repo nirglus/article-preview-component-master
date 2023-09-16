@@ -10,6 +10,7 @@ body{
     display: flex;
     width: 1000px;
     border-radius: 10px;
+    box-shadow: 0 17px 45px 0 #cbdae9;
 }
 .r-side-card{
     display: flex;
