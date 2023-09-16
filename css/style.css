@@ -6,3 +6,21 @@ body{
     justify-content: center;
     align-items: center;
 }
+#card-container{
+    display: flex;
+    width: 700px;
+}
+.r-side-card{
+    display: flex;
+    flex-direction: column;
+}
+.card-img img{
+    width: 200px;
+}
+.author-card{
+    display: flex;
+    align-items: center;
+}
+.share-popup{
+    display: none;
+}
