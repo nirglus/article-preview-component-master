@@ -8,14 +8,18 @@ body{
 }
 #card-container{
     display: flex;
-    width: 700px;
+    width: 1000px;
 }
 .r-side-card{
     display: flex;
     flex-direction: column;
+    width: 580px;
+    padding: 20px 42px;
 }
-.card-img img{
-    width: 200px;
+.card-img{
+    width: 400px;
+    background-image: url(../images/drawers.jpg);
+    background-size: cover;
 }
 .author-card{
     display: flex;
