@@ -62,7 +62,12 @@ body{
     border-radius: 50%;
 }
 .share-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
+    width: 20px;
+    height: 20px;
     padding: 2%;
     margin-left: 170px;
     background-color: hsl(210, 46%, 95%);
@@ -117,9 +122,6 @@ body{
         margin-left: 25px;
         height: 15px;
         width: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .author-card img{
         width: 30px;
