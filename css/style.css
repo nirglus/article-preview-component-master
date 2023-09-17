@@ -42,11 +42,20 @@ body{
 .author-card{
     display: flex;
     align-items: center;
+    margin-top: 20px;
     gap: 20px;
 }
 .author-name-date{
     display: flex;
     flex-direction: column;
+    gap: 3px;
+}
+.name{
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+.date{
+    color: hsl(212, 23%, 69%)
 }
 .author-card img{
     width: 50px;
@@ -56,7 +65,7 @@ body{
     border-radius: 50%;
     padding: 2%;
     margin-left: 170px;
-    background-color: hsl(210, 46%, 95%);;
+    background-color: hsl(210, 46%, 95%);
 }
 .share-icon img{
     width: 20px
