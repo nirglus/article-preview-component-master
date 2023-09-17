@@ -42,10 +42,24 @@ body{
 .author-card{
     display: flex;
     align-items: center;
+    gap: 20px;
+}
+.author-name-date{
+    display: flex;
+    flex-direction: column;
 }
 .author-card img{
     width: 50px;
     border-radius: 50%;
+}
+.share-icon{
+    border-radius: 50%;
+    padding: 2%;
+    margin-left: 170px;
+    background-color: hsl(210, 46%, 95%);;
+}
+.share-icon img{
+    width: 20px
 }
 .share-popup{
     display: none;
