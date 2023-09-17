@@ -80,3 +80,55 @@ body{
 .share-popup{
     display: none;
 }
+@media (max-width: 600px){
+    #card-container{
+        flex-direction: column;
+        width: 290px;
+        height: 435px;
+    }
+    .card-img{
+        width: 290px;
+        height: 195px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+    }
+    .r-side-card{
+        width: unset;
+        padding: 20px 0;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+        align-items: center;
+    }
+    .r-side-card h1{
+        width: unset;
+        font-size: 14px;
+        width: 220px;
+    }
+    .r-side-card p{
+        width: unset;
+        font-size: 11px;
+        width: 218px;
+    }
+    .author-card{
+        width: 215px;
+        margin-top: 2px;
+    }
+    .share-icon{
+        margin-left: 25px;
+        height: 15px;
+        width: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .author-card img{
+        width: 30px;
+    }
+    .share-icon img{
+        width: 12px;
+    }
+    .name, .date{
+        font-size: 11px;
+    }
+
+}
