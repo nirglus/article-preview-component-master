@@ -9,6 +9,7 @@ body{
 #card-container{
     display: flex;
     width: 1000px;
+    height: 365px;
     border-radius: 10px;
     box-shadow: 0 17px 45px 0 #cbdae9;
 }
@@ -20,6 +21,11 @@ body{
     background-color: #fff;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+}
+.r-side-card h1{
+    font-size: 25px;
+    width: 400px;
+    color: hsl(217, 19%, 35%);
 }
 .card-img{
     width: 400px;
