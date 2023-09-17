@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 454px;
-    padding: 20px 42px;
+    padding: 30px 42px 0px 42px;
     background-color: #fff;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
@@ -68,7 +68,14 @@ body{
     background-color: hsl(210, 46%, 95%);
 }
 .share-icon img{
-    width: 20px
+    width: 20px;
+}
+.share-icon:hover img, .share-icon:active img{
+    filter: brightness(100);
+}
+.share-icon:hover, .share-icon:active{
+    cursor: pointer;
+    background-color: hsl(217, 19%, 35%);
 }
 .share-popup{
     display: none;
