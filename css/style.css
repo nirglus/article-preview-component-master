@@ -8,7 +8,7 @@ body{
 }
 #card-container{
     display: flex;
-    width: 1000px;
+    width: 920px;
     height: 365px;
     border-radius: 10px;
     box-shadow: 0 17px 45px 0 #cbdae9;
@@ -16,7 +16,7 @@ body{
 .r-side-card{
     display: flex;
     flex-direction: column;
-    width: 580px;
+    width: 454px;
     padding: 20px 42px;
     background-color: #fff;
     border-bottom-right-radius: 15px;
