@@ -26,6 +26,11 @@ body{
     font-size: 25px;
     width: 400px;
     color: hsl(217, 19%, 35%);
+    margin-bottom: 0;
+}
+.r-side-card p{
+    color: hsl(214, 17%, 51%);
+    width: 450px;
 }
 .card-img{
     width: 400px;
