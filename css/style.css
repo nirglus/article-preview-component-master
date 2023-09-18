@@ -149,6 +149,7 @@ body{
     }
     .share-icon{
         margin-left: 25px;
+        margin-top: 5px;
         height: 15px;
         width: 15px;
         z-index: 100;
