@@ -120,6 +120,15 @@ body{
 .hidden{
     display: none;
 }
+@media (min-width: 800px) and (max-width:1024px){
+    .share-popup{
+        right: 9px;
+        top: 346px;
+    }
+    .arrow{
+        right: 107px;
+    }
+}
 @media (max-width: 600px){
     #card-container{
         flex-direction: column;
