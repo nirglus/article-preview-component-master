@@ -98,6 +98,9 @@ body{
 .share-popup img{
     z-index: 99;
 }
+.share-popup span{
+    letter-spacing: 7px;
+}
 .arrow{
     position: absolute;
     width: 20px;
