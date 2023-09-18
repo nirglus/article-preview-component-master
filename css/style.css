@@ -71,6 +71,7 @@ body{
     padding: 2%;
     margin-left: 170px;
     background-color: hsl(210, 46%, 95%);
+    transition: 0.3s;
 }
 #share-icon img{
     width: 20px;
