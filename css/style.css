@@ -154,6 +154,9 @@ body{
         width: 15px;
         z-index: 100;
     }
+    .share-icon:active, .share-icon:hover{
+        background-color: hsl(212, 23%, 69%);
+    }
     .author-card img{
         width: 30px;
     }
