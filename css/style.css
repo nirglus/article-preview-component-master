@@ -82,7 +82,7 @@ body{
     cursor: pointer;
     background-color: hsl(217, 19%, 35%);
 }
-#share-popup{
+.share-popup{
     display: flex;
     gap: 15px;
     background-color: hsl(217, 19%, 35%);
@@ -95,10 +95,10 @@ body{
     top: 476px;
     z-index: 99;
 }
-#share-popup img{
+.share-popup img{
     z-index: 99;
 }
-#share-popup span{
+.share-popup span{
     letter-spacing: 7px;
 }
 .arrow{
@@ -166,7 +166,7 @@ body{
     .name, .date{
         font-size: 11px;
     }
-    #share-popup{
+    .share-popup{
         width: 260px;
         height: 65px;
         padding: 0 0 0 30px;
@@ -184,7 +184,7 @@ body{
         gap: 10px;
         font-size: 11px;
     }
-    #share-popup img{
+    .share-popup img{
         width: 19px;
     }
     .arrow{
