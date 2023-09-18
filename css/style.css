@@ -61,7 +61,7 @@ body{
     width: 50px;
     border-radius: 50%;
 }
-.share-icon{
+#share-icon{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,13 +72,13 @@ body{
     margin-left: 170px;
     background-color: hsl(210, 46%, 95%);
 }
-.share-icon img{
+#share-icon img{
     width: 20px;
 }
-.share-icon:hover img, .share-icon:active img{
+#share-icon:hover img, #share-icon:active img{
     filter: brightness(100);
 }
-.share-icon:hover, .share-icon:active{
+#share-icon:hover, #share-icon:active{
     cursor: pointer;
     background-color: hsl(217, 19%, 35%);
 }
@@ -147,20 +147,20 @@ body{
         width: 215px;
         margin-top: 12px;
     }
-    .share-icon{
+    #share-icon{
         margin-left: 25px;
         margin-top: 5px;
         height: 15px;
         width: 15px;
         z-index: 100;
     }
-    .share-icon:active, .share-icon:hover{
+    #share-icon:active, #share-icon:hover{
         background-color: hsl(212, 23%, 69%);
     }
-    .author-card img{
+    #author-card img{
         width: 30px;
     }
-    .share-icon img{
+    #share-icon img{
         width: 12px;
     }
     .name, .date{
