@@ -91,7 +91,7 @@ body{
     border-radius: 10px;
     text-transform: uppercase;
     position: absolute;
-    right: 211px;
+    right: 197px;
     top: 476px;
     z-index: 99;
 }
@@ -107,7 +107,7 @@ body{
     height: 20px;
     transform: rotate(45deg);
     background-color: hsl(217, 19%, 35%);
-    right: 113px;
+    right: 127px;
     top: 55px;
     z-index: 1;
 }
